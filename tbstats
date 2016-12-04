@@ -1,0 +1,389 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $("form").submit(function() {
+          window.location = window.location.protocol + '//' + window.location.host + '/stats/' + $("form input").val();
+          return false;
+        });
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-16870004-9', 'auto');
+      ga('send', 'pageview');
+    </script>
+  <link href="Tb stats.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+<h1> TORIBASH STATISTICS </h1>
+    
+      
+    
+  <a href="/online_users">Online users</a>
+  <form>
+      <input type="text" placeholder="Search User">
+    </form>
+    <table width="838" align="center" class="Header">
+      <tr>
+        <th height="57" bgcolor="#FF0004">TOP TC EARNINGS (DAILY)</th>
+        <th bgcolor="#FF0004">TOP TC SPENT (DAILY)</th>
+        <th bgcolor="#FF0004">TOP QI EARNINGS (DAILY)</th>
+        <th bgcolor="#FF0004" class="Header">TOP POSTERS(DAILY)</th>
+      </tr>
+      <tr>
+        <td width="209"><ol>
+          <li>            <a href="/stats/Warrior">Warrior</a> 289402          </li>
+              <li>                <a href="/stats/Ware">Ware</a> 199000              </li>
+              <li>                <a href="/stats/NikosDEAD">NikosDEAD</a> 122248              </li>
+              <li>                <a href="/stats/Kotminiser">Kotminiser</a> 64022              </li>
+              <li>                <a href="/stats/Diamond">Diamond</a> 43334              </li>
+              <li>                <a href="/stats/Juan">Juan</a> 32000              </li>
+              <li>                <a href="/stats/macrx2">macrx2</a> 29500              </li>
+              <li>                <a href="/stats/swaggysir">swaggysir</a> 28000              </li>
+              <li>                <a href="/stats/Sugar">Sugar</a> 26673              </li>
+              <li>                <a href="/stats/IIRyanII">IIRyanII</a> 25000              </li>
+              <li>                <a href="/stats/AssassinPro">AssassinPro</a> 25000              </li>
+              <li>                <a href="/stats/ItzPulse">ItzPulse</a> 24938              </li>
+              <li>                <a href="/stats/DankDab">DankDab</a> 24096              </li>
+              <li>                <a href="/stats/mackeria">mackeria</a> 23232              </li>
+              <li>                <a href="/stats/mcpick2">mcpick2</a> 19066              </li>
+              <li>                <a href="/stats/Crollex">Crollex</a> 16709              </li>
+              <li>                <a href="/stats/Felnin">Felnin</a> 15000              </li>
+              <li>                <a href="/stats/DLGXCDFFE">DLGXCDFFE</a> 15000              </li>
+              <li>                <a href="/stats/iTemp">iTemp</a> 15000              </li>
+              <li>                <a href="/stats/Ruo">Ruo</a> 14110              </li>
+              <li>                <a href="/stats/lucae05">lucae05</a> 14053              </li>
+              <li>                <a href="/stats/Love">Love</a> 13621              </li>
+              <li>                <a href="/stats/Tohya">Tohya</a> 11332              </li>
+              <li>                <a href="/stats/Detoxified">Detoxified</a> 11190              </li>
+              <li>                <a href="/stats/ColdFreeze">ColdFreeze</a> 9476              </li>
+              </ol>
+weekly tc earnings
+            <ol>
+              <li>                <a href="/stats/Warrior">Warrior</a> 289402              </li>
+              <li>                <a href="/stats/Ware">Ware</a> 199000              </li>
+              <li>                <a href="/stats/NikosDEAD">NikosDEAD</a> 122248              </li>
+              <li>                <a href="/stats/Kotminiser">Kotminiser</a> 64022              </li>
+              <li>                <a href="/stats/Diamond">Diamond</a> 43334              </li>
+              <li>                <a href="/stats/Juan">Juan</a> 32000              </li>
+              <li>                <a href="/stats/macrx2">macrx2</a> 29500              </li>
+              <li>                <a href="/stats/swaggysir">swaggysir</a> 28000              </li>
+              <li>                <a href="/stats/Sugar">Sugar</a> 26673              </li>
+              <li>                <a href="/stats/IIRyanII">IIRyanII</a> 25000              </li>
+              <li>                <a href="/stats/AssassinPro">AssassinPro</a> 25000              </li>
+              <li>                <a href="/stats/ItzPulse">ItzPulse</a> 24938              </li>
+              <li>                <a href="/stats/DankDab">DankDab</a> 24096              </li>
+              <li>                <a href="/stats/mackeria">mackeria</a> 23232              </li>
+              <li>                <a href="/stats/mcpick2">mcpick2</a> 19066              </li>
+              <li>                <a href="/stats/Crollex">Crollex</a> 16709              </li>
+              <li>                <a href="/stats/Felnin">Felnin</a> 15000              </li>
+              <li>                <a href="/stats/DLGXCDFFE">DLGXCDFFE</a> 15000              </li>
+              <li>                <a href="/stats/iTemp">iTemp</a> 15000              </li>
+              <li>                <a href="/stats/Ruo">Ruo</a> 14110              </li>
+              <li>                <a href="/stats/lucae05">lucae05</a> 14053              </li>
+              <li>                <a href="/stats/Love">Love</a> 13621              </li>
+              <li>                <a href="/stats/Tohya">Tohya</a> 11332              </li>
+              <li>                <a href="/stats/Detoxified">Detoxified</a> 11190              </li>
+              <li>                <a href="/stats/ColdFreeze">ColdFreeze</a> 9476              </li>
+          </ol>
+        </td>
+        <td width="196"><ol>
+          <li><a href="/stats/MercuryVoid">MercuryVoid</a> 209990</li>
+              <li><a href="/stats/Horvat17">Horvat17</a> 157480</li>
+              <li><a href="/stats/-Kau-">-Kau-</a> 105090</li>
+              <li><a href="/stats/Drosma">Drosma</a> 90656</li>
+              <li><a href="/stats/Soon">Soon</a> 75341</li>
+              <li><a href="/stats/Kozmonaut">Kozmonaut</a> 47784</li>
+              <li><a href="/stats/PrinceAugust">PrinceAugust</a> 44002</li>
+              <li><a href="/stats/theDestro">theDestro</a> 31514</li>
+              <li><a href="/stats/Scourge">Scourge</a> 29674</li>
+              <li><a href="/stats/Deprived">Deprived</a> 25001</li>
+              <li><a href="/stats/Nerfpls">Nerfpls</a> 25000</li>
+              <li><a href="/stats/Lamby">Lamby</a> 23009</li>
+              <li><a href="/stats/skylord30">skylord30</a> 22850</li>
+              <li><a href="/stats/haloyoung">haloyoung</a> 21703</li>
+              <li><a href="/stats/Jojo">Jojo</a> 20876</li>
+              <li><a href="/stats/bubby101">bubby101</a> 17930</li>
+              <li><a href="/stats/HoeImRambo">HoeImRambo</a> 17478</li>
+              <li><a href="/stats/SkullZed">SkullZed</a> 12364</li>
+              <li><a href="/stats/brenbear87">brenbear87</a> 11460</li>
+              <li><a href="/stats/Balik">Balik</a> 11091</li>
+              <li><a href="/stats/warriorba">warriorba</a> 10499</li>
+              <li><a href="/stats/Syncronix">Syncronix</a> 10000</li>
+              <li><a href="/stats/Timkasd">Timkasd</a> 10000</li>
+              <li><a href="/stats/MoldyRobot">MoldyRobot</a> 9980</li>
+              <li><a href="/stats/12TB21">12TB21</a> 9970</li>
+              </ol>
+          <h3>weekly tc spent</h3>
+            <ol>
+              <li><a href="/stats/MercuryVoid">MercuryVoid</a> 209990</li>
+              <li><a href="/stats/Horvat17">Horvat17</a> 157480</li>
+              <li><a href="/stats/-Kau-">-Kau-</a> 105090</li>
+              <li><a href="/stats/Drosma">Drosma</a> 90656</li>
+              <li><a href="/stats/Soon">Soon</a> 75341</li>
+              <li><a href="/stats/Kozmonaut">Kozmonaut</a> 47784</li>
+              <li><a href="/stats/PrinceAugust">PrinceAugust</a> 44002</li>
+              <li><a href="/stats/theDestro">theDestro</a> 31514</li>
+              <li><a href="/stats/Scourge">Scourge</a> 29674</li>
+              <li><a href="/stats/Deprived">Deprived</a> 25001</li>
+              <li><a href="/stats/Nerfpls">Nerfpls</a> 25000</li>
+              <li><a href="/stats/Lamby">Lamby</a> 23009</li>
+              <li><a href="/stats/skylord30">skylord30</a> 22850</li>
+              <li><a href="/stats/haloyoung">haloyoung</a> 21703</li>
+              <li><a href="/stats/Jojo">Jojo</a> 20876</li>
+              <li><a href="/stats/bubby101">bubby101</a> 17930</li>
+              <li><a href="/stats/HoeImRambo">HoeImRambo</a> 17478</li>
+              <li><a href="/stats/SkullZed">SkullZed</a> 12364</li>
+              <li><a href="/stats/brenbear87">brenbear87</a> 11460</li>
+              <li><a href="/stats/Balik">Balik</a> 11091</li>
+              <li><a href="/stats/warriorba">warriorba</a> 10499</li>
+              <li><a href="/stats/Syncronix">Syncronix</a> 10000</li>
+              <li><a href="/stats/Timkasd">Timkasd</a> 10000</li>
+              <li><a href="/stats/MoldyRobot">MoldyRobot</a> 9980</li>
+              <li><a href="/stats/12TB21">12TB21</a> 9970</li>
+          </ol>
+        </td>
+        <td width="199"><ol>
+          <li><a href="/stats/maxime200">maxime200</a> 110</li>
+              <li><a href="/stats/savageyoun">savageyoun</a> 100</li>
+              <li><a href="/stats/Freeze1010">Freeze1010</a> 98</li>
+              <li><a href="/stats/xbcz">xbcz</a> 97</li>
+              <li><a href="/stats/NaBenBaKa">NaBenBaKa</a> 97</li>
+              <li><a href="/stats/P0int">P0int</a> 96</li>
+              <li><a href="/stats/IC3RV34U">IC3RV34U</a> 95</li>
+              <li><a href="/stats/zNiTdragon">zNiTdragon</a> 94</li>
+              <li><a href="/stats/hasni59500">hasni59500</a> 94</li>
+              <li><a href="/stats/LeiKen228">LeiKen228</a> 87</li>
+              <li><a href="/stats/TOAD586">TOAD586</a> 87</li>
+              <li><a href="/stats/amorphous8">amorphous8</a> 84</li>
+              <li><a href="/stats/Miecislaw">Miecislaw</a> 83</li>
+              <li><a href="/stats/DragoPvP">DragoPvP</a> 83</li>
+              <li><a href="/stats/Qukslice">Qukslice</a> 83</li>
+              <li><a href="/stats/PussyRiot">PussyRiot</a> 82</li>
+              <li><a href="/stats/Thasainz">Thasainz</a> 79</li>
+              <li><a href="/stats/kolyan3316">kolyan3316</a> 79</li>
+              <li><a href="/stats/UncutxDrop">UncutxDrop</a> 77</li>
+              <li><a href="/stats/Celious">Celious</a> 75</li>
+              <li><a href="/stats/Mgic">Mgic</a> 74</li>
+              <li><a href="/stats/Ware">Ware</a> 70</li>
+              <li><a href="/stats/fugiggly">fugiggly</a> 69</li>
+              <li><a href="/stats/notchnick">notchnick</a> 68</li>
+              <li><a href="/stats/Drosma">Drosma</a> 68</li>
+          </ol>
+          <h3>weekly qi earnings</h3>
+            <ol>
+              <li><a href="/stats/maxime200">maxime200</a> 110</li>
+              <li><a href="/stats/savageyoun">savageyoun</a> 100</li>
+              <li><a href="/stats/Freeze1010">Freeze1010</a> 98</li>
+              <li><a href="/stats/xbcz">xbcz</a> 97</li>
+              <li><a href="/stats/NaBenBaKa">NaBenBaKa</a> 97</li>
+              <li><a href="/stats/P0int">P0int</a> 96</li>
+              <li><a href="/stats/IC3RV34U">IC3RV34U</a> 95</li>
+              <li><a href="/stats/zNiTdragon">zNiTdragon</a> 94</li>
+              <li><a href="/stats/hasni59500">hasni59500</a> 94</li>
+              <li><a href="/stats/LeiKen228">LeiKen228</a> 87</li>
+              <li><a href="/stats/TOAD586">TOAD586</a> 87</li>
+              <li><a href="/stats/amorphous8">amorphous8</a> 84</li>
+              <li><a href="/stats/Miecislaw">Miecislaw</a> 83</li>
+              <li><a href="/stats/DragoPvP">DragoPvP</a> 83</li>
+              <li><a href="/stats/Qukslice">Qukslice</a> 83</li>
+              <li><a href="/stats/PussyRiot">PussyRiot</a> 82</li>
+              <li><a href="/stats/Thasainz">Thasainz</a> 79</li>
+              <li><a href="/stats/kolyan3316">kolyan3316</a> 79</li>
+              <li><a href="/stats/UncutxDrop">UncutxDrop</a> 77</li>
+              <li><a href="/stats/Celious">Celious</a> 75</li>
+              <li><a href="/stats/Mgic">Mgic</a> 74</li>
+              <li><a href="/stats/Ware">Ware</a> 70</li>
+              <li><a href="/stats/fugiggly">fugiggly</a> 69</li>
+              <li><a href="/stats/notchnick">notchnick</a> 68</li>
+              <li><a href="/stats/Drosma">Drosma</a> 68</li>
+          </ol>
+        </td>
+        <td width="196"><ol>
+          <li><a href="/stats/Shmurda">Shmurda</a> 15</li>
+              <li><a href="/stats/Mercurit">Mercurit</a> 13</li>
+              <li><a href="/stats/ItzPulse">ItzPulse</a> 9</li>
+              <li><a href="/stats/MercuryVoid">MercuryVoid</a> 7</li>
+              <li><a href="/stats/Kotminiser">Kotminiser</a> 6</li>
+              <li><a href="/stats/Nerfpls">Nerfpls</a> 5</li>
+              <li><a href="/stats/-Kau-">-Kau-</a> 4</li>
+              <li><a href="/stats/Thronior">Thronior</a> 4</li>
+              <li><a href="/stats/Kozmonaut">Kozmonaut</a> 4</li>
+              <li><a href="/stats/Juan">Juan</a> 4</li>
+              <li><a href="/stats/Horvat17">Horvat17</a> 4</li>
+              <li><a href="/stats/bubby101">bubby101</a> 3</li>
+              <li><a href="/stats/Shmevin">Shmevin</a> 3</li>
+              <li><a href="/stats/DLGXCDFFE">DLGXCDFFE</a> 3</li>
+              <li><a href="/stats/ultimatumm">ultimatumm</a> 2</li>
+              <li><a href="/stats/Slick">Slick</a> 2</li>
+              <li><a href="/stats/killertorb">killertorb</a> 2</li>
+              <li><a href="/stats/fogotten">fogotten</a> 2</li>
+              <li><a href="/stats/ZeDerpyOne">ZeDerpyOne</a> 2</li>
+              <li><a href="/stats/Ziffi">Ziffi</a> 2</li>
+              <li><a href="/stats/WhitePhoenix">WhitePhoenix</a> 2</li>
+              <li><a href="/stats/Love">Love</a> 2</li>
+              <li><a href="/stats/clumberdob">clumberdob</a> 2</li>
+              <li><a href="/stats/Stone">Stone</a> 1</li>
+              <li><a href="/stats/PrinceAugust">PrinceAugust</a> 1</li>
+          </ol>
+          <h3>weekly posters</h3>
+            <ol>
+              <li><a href="/stats/Shmurda">Shmurda</a> 15</li>
+              <li><a href="/stats/Mercurit">Mercurit</a> 13</li>
+              <li><a href="/stats/ItzPulse">ItzPulse</a> 9</li>
+              <li><a href="/stats/MercuryVoid">MercuryVoid</a> 7</li>
+              <li><a href="/stats/Kotminiser">Kotminiser</a> 6</li>
+              <li><a href="/stats/Nerfpls">Nerfpls</a> 5</li>
+              <li><a href="/stats/-Kau-">-Kau-</a> 4</li>
+              <li><a href="/stats/Thronior">Thronior</a> 4</li>
+              <li><a href="/stats/Kozmonaut">Kozmonaut</a> 4</li>
+              <li><a href="/stats/Juan">Juan</a> 4</li>
+              <li><a href="/stats/Horvat17">Horvat17</a> 4</li>
+              <li><a href="/stats/bubby101">bubby101</a> 3</li>
+              <li><a href="/stats/Shmevin">Shmevin</a> 3</li>
+              <li><a href="/stats/DLGXCDFFE">DLGXCDFFE</a> 3</li>
+              <li><a href="/stats/ultimatumm">ultimatumm</a> 2</li>
+              <li><a href="/stats/Slick">Slick</a> 2</li>
+              <li><a href="/stats/killertorb">killertorb</a> 2</li>
+              <li><a href="/stats/fogotten">fogotten</a> 2</li>
+              <li><a href="/stats/ZeDerpyOne">ZeDerpyOne</a> 2</li>
+              <li><a href="/stats/Ziffi">Ziffi</a> 2</li>
+              <li><a href="/stats/WhitePhoenix">WhitePhoenix</a> 2</li>
+              <li><a href="/stats/Love">Love</a> 2</li>
+              <li><a href="/stats/clumberdob">clumberdob</a> 2</li>
+              <li><a href="/stats/Stone">Stone</a> 1</li>
+              <li><a href="/stats/PrinceAugust">PrinceAugust</a> 1</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Top tc</h3>
+          <ol>
+            <li><a href="/stats/firebolty">firebolty</a> 4219010</li>
+            <li><a href="/stats/Gynx">Gynx</a> 4191828</li>
+            <li><a href="/stats/lucastorre">lucastorre</a> 3079370</li>
+            <li><a href="/stats/Diamond">Diamond</a> 2695584</li>
+            <li><a href="/stats/Wilshire">Wilshire</a> 2507215</li>
+            <li><a href="/stats/VayneKuagari">VayneKuagari</a> 2285774</li>
+            <li><a href="/stats/Icky">Icky</a> 2136818</li>
+            <li><a href="/stats/Ferras">Ferras</a> 2122776</li>
+            <li><a href="/stats/Urbank">Urbank</a> 2077818</li>
+            <li><a href="/stats/Imsku">Imsku</a> 2017537</li>
+            <li><a href="/stats/Ezalor">Ezalor</a> 2015827</li>
+            <li><a href="/stats/Megadoomer">Megadoomer</a> 2000211</li>
+            <li><a href="/stats/ManBreakfast">ManBreakfast</a> 1981606</li>
+            <li><a href="/stats/KamiKo">KamiKo</a> 1867000</li>
+            <li><a href="/stats/TheChamber">TheChamber</a> 1863561</li>
+            <li><a href="/stats/Lucker">Lucker</a> 1700000</li>
+            <li><a href="/stats/Fear">Fear</a> 1619181</li>
+            <li><a href="/stats/Hamr">Hamr</a> 1500639</li>
+            <li><a href="/stats/Dexyand">Dexyand</a> 1379009</li>
+            <li><a href="/stats/ObeyBank">ObeyBank</a> 1370000</li>
+            <li><a href="/stats/VitieK">VitieK</a> 1339779</li>
+            <li><a href="/stats/Fran">Fran</a> 1316899</li>
+            <li><a href="/stats/Fish">Fish</a> 1311120</li>
+            <li><a href="/stats/Moop">Moop</a> 1283566</li>
+            <li><a href="/stats/VitaMinoo">VitaMinoo</a> 1281299</li>
+          </ol>
+        </td>
+        <td>
+          <h3>Top qi</h3>
+          <ol>
+            <li><a href="/stats/Mendol">Mendol</a> 163394</li>
+            <li><a href="/stats/Xomar">Xomar</a> 155616</li>
+            <li><a href="/stats/AwmiK">AwmiK</a> 148458</li>
+            <li><a href="/stats/Danz0">Danz0</a> 142774</li>
+            <li><a href="/stats/1coolman1">1coolman1</a> 115163</li>
+            <li><a href="/stats/xbcz">xbcz</a> 108521</li>
+            <li><a href="/stats/me123ster">me123ster</a> 63354</li>
+            <li><a href="/stats/whatsup">whatsup</a> 61416</li>
+            <li><a href="/stats/Tripstone">Tripstone</a> 60366</li>
+            <li><a href="/stats/ATHENS">ATHENS</a> 59339</li>
+            <li><a href="/stats/WIL">WIL</a> 54778</li>
+            <li><a href="/stats/TIcux">TIcux</a> 54302</li>
+            <li><a href="/stats/Odlov">Odlov</a> 53792</li>
+            <li><a href="/stats/Diamond">Diamond</a> 53351</li>
+            <li><a href="/stats/JePoY">JePoY</a> 53328</li>
+            <li><a href="/stats/Time">Time</a> 50721</li>
+            <li><a href="/stats/sexy143">sexy143</a> 50240</li>
+            <li><a href="/stats/santa">santa</a> 50007</li>
+            <li><a href="/stats/Ash">Ash</a> 49535</li>
+            <li><a href="/stats/P0int">P0int</a> 48896</li>
+            <li><a href="/stats/ViperTech">ViperTech</a> 48164</li>
+            <li><a href="/stats/Bodhisattva">Bodhisattva</a> 47331</li>
+            <li><a href="/stats/Tiago">Tiago</a> 45581</li>
+            <li><a href="/stats/VayneKuagari">VayneKuagari</a> 44720</li>
+            <li><a href="/stats/EcoHitman">EcoHitman</a> 44451</li>
+          </ol>
+        </td>
+        <td>
+          <h3>Top win ratio</h3>
+          <ol>
+            <li><a href="/stats/Mr1337">Mr1337</a> 100.0</li>
+            <li><a href="/stats/sinistral">sinistral</a> 100.0</li>
+            <li><a href="/stats/hefirius">hefirius</a> 100.0</li>
+            <li><a href="/stats/Corser">Corser</a> 100.0</li>
+            <li><a href="/stats/damarcus">damarcus</a> 100.0</li>
+            <li><a href="/stats/Sweeet">Sweeet</a> 100.0</li>
+            <li><a href="/stats/XennoX">XennoX</a> 100.0</li>
+            <li><a href="/stats/redux">redux</a> 100.0</li>
+            <li><a href="/stats/filicous">filicous</a> 100.0</li>
+            <li><a href="/stats/rgonwdj">rgonwdj</a> 99.923</li>
+            <li><a href="/stats/Juraviel">Juraviel</a> 99.912</li>
+            <li><a href="/stats/thenicksta">thenicksta</a> 99.761</li>
+            <li><a href="/stats/RenZoneNL">RenZoneNL</a> 99.701</li>
+            <li><a href="/stats/PsiPhi">PsiPhi</a> 99.596</li>
+            <li><a href="/stats/Sochara">Sochara</a> 99.449</li>
+            <li><a href="/stats/Shogan">Shogan</a> 99.362</li>
+            <li><a href="/stats/isha">isha</a> 98.819</li>
+            <li><a href="/stats/ShadowNexus">ShadowNexus</a> 98.704</li>
+            <li><a href="/stats/evilpanda">evilpanda</a> 98.198</li>
+            <li><a href="/stats/TrueBoVinE">TrueBoVinE</a> 97.926</li>
+            <li><a href="/stats/Emoki113r">Emoki113r</a> 97.728</li>
+            <li><a href="/stats/kwOmp">kwOmp</a> 97.639</li>
+            <li><a href="/stats/batmon">batmon</a> 97.472</li>
+            <li><a href="/stats/cabose">cabose</a> 97.278</li>
+            <li><a href="/stats/omosh">omosh</a> 97.214</li>
+          </ol>
+        </td>
+        <td>
+          <h3>Top posters</h3>
+          <ol>
+            <li><a href="/stats/Raiken">Raiken</a> 20940</li>
+            <li><a href="/stats/DruggedPanda">DruggedPanda</a> 16145</li>
+            <li><a href="/stats/Insanity">Insanity</a> 14069</li>
+            <li><a href="/stats/missuse">missuse</a> 13592</li>
+            <li><a href="/stats/hanz0">hanz0</a> 11880</li>
+            <li><a href="/stats/Tricerafi">Tricerafi</a> 11763</li>
+            <li><a href="/stats/Kratos">Kratos</a> 11383</li>
+            <li><a href="/stats/Fish">Fish</a> 11368</li>
+            <li><a href="/stats/BenDover">BenDover</a> 11253</li>
+            <li><a href="/stats/SkulFuk">SkulFuk</a> 11009</li>
+            <li><a href="/stats/Zalmoxis">Zalmoxis</a> 10984</li>
+            <li><a href="/stats/XPaD">XPaD</a> 10954</li>
+            <li><a href="/stats/Solax">Solax</a> 10915</li>
+            <li><a href="/stats/SlipAnc">SlipAnc</a> 10905</li>
+            <li><a href="/stats/DarkJak">DarkJak</a> 10391</li>
+            <li><a href="/stats/sir">sir</a> 10290</li>
+            <li><a href="/stats/firebolty">firebolty</a> 10072</li>
+            <li><a href="/stats/Hours">Hours</a> 9720</li>
+            <li><a href="/stats/Star">Star</a> 9598</li>
+            <li><a href="/stats/ConCon">ConCon</a> 9583</li>
+            <li><a href="/stats/Leaf">Leaf</a> 9518</li>
+            <li><a href="/stats/EJM">EJM</a> 9461</li>
+            <li><a href="/stats/Avalanche">Avalanche</a> 9420</li>
+            <li><a href="/stats/Virtue">Virtue</a> 9395</li>
+            <li><a href="/stats/DarkDranz">DarkDranz</a> 9317</li>
+          </ol>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
